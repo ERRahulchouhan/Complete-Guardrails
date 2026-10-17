@@ -1,0 +1,33 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.env
+*.key
+*.pem
+*.p12
+secrets.toml
+.streamlit/secrets.toml
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local model and tool caches
+.cache/
+.huggingface/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
